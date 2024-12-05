@@ -1,47 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* External CSS */
 @import url('/css/fonts.css');
 @import url('/css/reset.css');
 
 /* header */
 
-.spacer{
-    margin-left: 5px;
-    margin-right: 5px;
-    height: 1rem;
-    border-color: gray;
-}
-
-#main-search{
-    outline: none;
-    border-bottom-style: solid;
-    border-radius: 1rem;
-    border-style: none;
-}
-
-i.icon-search{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}
-
 .header-text{
-    background-color: aqua;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .header{
+    margin-left: 1rem;
+    margin-right: 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+ul.header{gap: 1rem;}
 
 /* body */
 
 body{
-    height: 100svh;
+    height: 93.5svh;
 }
 
 #main-div{
