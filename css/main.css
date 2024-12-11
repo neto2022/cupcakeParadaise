@@ -54,3 +54,18 @@ body {
   color: #ff007f;
   text-shadow: 10px 10px 0px #00bfff;
 }
+
+/* Footer */
+
+.main-footer {
+  display: inline-flex;
+}
+
+.footer1 {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.fa-x-twitter,.fa-linkedin,.footer-text{
+  font-size: 1rem;
+}
